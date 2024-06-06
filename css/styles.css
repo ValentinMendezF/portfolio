@@ -55,6 +55,146 @@ body{
     border-color: #FBFBFB;
 }
 
-.inicio section a{
+#flecha-abajo{
     color: #424242;
 }
+
+.sobre-mi{
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre-mi img{
+    justify-content: center;
+    align-items: center;
+    /*ajustar tamaño*/
+}
+
+.yellow-underline{
+    text-decoration: underline #E0AB2B;
+}
+
+.sobre-mi a{
+    color: #E0AB2B;
+    text-decoration: none;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: row;
+    background-color: #353333;
+}
+
+.alinear-skills{
+    display: flex;
+    flex-direction: row;
+}
+
+.alinear-skills div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-experiencia{
+    display: flex;
+    flex-direction: row;
+}
+
+.formas{
+    display: flex;
+    flex-direction: column;
+}
+
+.circulo{
+    border-color: #E0AB2B;
+}
+
+.linea-recta{
+    background-color: #E0AB2B;
+}
+
+.experienciaa{
+    display: flex;
+    flex-direction: column;
+}
+
+.ultimos-proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultimos-proyectos-contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perfiles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links-perfiles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perfiles-contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactame{
+    background-color: #353333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactame-contenedor-titulo-form{
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-numero-correo{
+    display: flex;
+    flex-direction: row;
+}
+
+.numero-correo{
+    display: flex;
+    flex-direction: column;
+}
+
+form button{
+    color: #E0AB2B;
+    background-color: #353333;
+    border: none;
+    justify-self: right;
+    width:auto;
+}
+
+form button i{
+    color: #E0AB2B;
+}
+
+
+
+
+
