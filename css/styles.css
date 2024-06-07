@@ -186,12 +186,15 @@ form button{
     color: #E0AB2B;
     background-color: #353333;
     border: none;
-    justify-self: right;
-    width:auto;
+    justify-self:right;
 }
 
 form button i{
     color: #E0AB2B;
+}
+
+.contactame-contenedor-links{
+    text-align: right;
 }
 
 
