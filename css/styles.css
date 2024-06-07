@@ -13,9 +13,13 @@ body{
 }
 
 .inicio{
-    background-image:url(img/fondo.jpg);
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
+
 }
 
 .inicio header{
