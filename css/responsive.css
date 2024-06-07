@@ -1,4 +1,5 @@
 @media(max-width: 1920px){
+
 .body{
     max-width: 1920px;
 }
@@ -50,28 +51,46 @@
     display: none;
 }
 
+.sobre-mi{
+padding: 50px 100px;
+}
 
 .sobre-mi img{
     width: 720px ;
-    height: 720px;
-    
+    height: 720px; 
+    padding: 0px 50px;  
+}
+
+.sobre-mi div{
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-right: 400px;
+}
+
+.sobre-mi div h1{
+    font-size: 50px;
+}
+
+.sobre-mi div p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cv-contactame{
+    margin-top: 80px;
+}
+
+.cv-contactame a{
+    margin-right: 50px;
+    padding: 10px 15px;
+    font-size: 20px;
+    display: flex;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ultimos-proyectos div img{
+    width: 520px;
+    height: 520px;
+}
 
 }

@@ -25,7 +25,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
 .inicio header p{
@@ -80,6 +79,12 @@ body{
 .sobre-mi a{
     color: #E0AB2B;
     text-decoration: none;
+}
+
+.cv-contactame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .habilidades{
