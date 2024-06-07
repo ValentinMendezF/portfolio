@@ -1,0 +1,77 @@
+@media(max-width: 1920px){
+.body{
+    max-width: 1920px;
+}
+
+.inicio{
+    height: 80vh;
+}
+    
+.inicio header{
+    padding-top: 40px;
+}
+
+.inicio header p{
+    font-size: 20px;
+}
+
+.inicio header nav{
+    margin-left:200px ;
+}
+
+.inicio header nav a{
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.inicio section{
+    padding: 250px;
+}
+
+.inicio section h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.inicio section p{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.inicio section div a{
+    border-radius: 25px ;
+    border-width: 1.5px;
+    font-size: 32px;
+    margin-right: 10px;
+    padding: 8px 12px;
+}
+
+#flecha-abajo{
+    display: none;
+}
+
+
+.sobre-mi img{
+    width: 720px ;
+    height: 720px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
