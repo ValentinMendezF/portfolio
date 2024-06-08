@@ -102,6 +102,7 @@ margin-right: 0;
 
 .habilidades{
     padding: 80px 0px 80px 150px;
+    border-radius: 30px;
 }
 
 .skills-descripcion{
@@ -152,7 +153,54 @@ margin-right: 0;
 }
 
 .experiencia{
+    padding: 80px 0px 80px 150px;
+    height: 100%;
+}
 
+.experiencia h1{
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+
+.contenedor-experiencia{
+    padding: 0px 200px 200px 200px;
+}
+
+#num-2024{
+    padding: 10px;
+    height: fit-content;
+    font-weight: 300;
+    margin-right: 40px;
+}
+
+.formas{
+    margin-right: 25px;
+}
+
+.circulo{
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.linea-recta{
+    width: 2px;
+    height: 100%;
+    position: relative;
+    left: 8px;
+}
+
+.experienciaa h2{
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.experienciaa h3{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.experienciaa p{
+    font-size: 16px;
 }
 
 .ultimos-proyectos{

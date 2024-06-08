@@ -135,7 +135,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    height: auto;
 }
 
 .contenedor-experiencia{
@@ -143,14 +143,21 @@ body{
     flex-direction: row;
 }
 
+#num-2024{
+    background-color: #424242;
+    height: auto;
+}
+
+
 .formas{
     display: flex;
     flex-direction: column;
 }
 
 .circulo{
-    border-color: #E0AB2B;
+    border: #E0AB2B solid;
 }
+
 
 .linea-recta{
     background-color: #E0AB2B;
