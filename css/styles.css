@@ -2,14 +2,16 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "Inter", sans-serif;
     color: #FBFBFB;
 }
 
 body{
     background-color: #000000;
+    margin: 0px;
+    width: 100vw;
 }
 
 .inicio{
@@ -19,6 +21,7 @@ body{
     background-size: cover;
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 
 .inicio header{
@@ -70,12 +73,13 @@ body{
 .sobre-mi{
     display: flex;
     flex-direction: row;
+    width: 100vw;
 }
 
 .sobre-mi img{
     justify-content: center;
     align-items: center;
-    box-shadow: #000000 10px;
+    box-shadow: #000000;
 }
 
 .yellow-underline{
@@ -105,17 +109,14 @@ body{
     display: flex;
     flex-direction: row;
     background-color: #353333;
+    justify-items: center;
+    height: auto;
 }
 
 .habilidades div a{
     color: #FBFBFB;
     text-decoration: none;
-}
-
-.habilidades div a:hover{
-    color: #FBFBFB;
     background-color: #E0AB2B;
-    transition: 0.5s;
 }
 
 .alinear-skills{
@@ -134,7 +135,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
 }
+
 .contenedor-experiencia{
     display: flex;
     flex-direction: row;
@@ -163,6 +166,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 .ultimos-proyectos-contenedor{
@@ -175,6 +179,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100vw;
 }
 
 .links-perfiles{
@@ -193,6 +198,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
 }
 
 .contactame-contenedor-titulo-form{

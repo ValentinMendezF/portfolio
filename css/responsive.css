@@ -1,11 +1,13 @@
 @media(max-width: 1920px){
 
+
 .body{
-    max-width: 1920px;
+    width: 100vw;
 }
 
 .inicio{
-    height: 80vh;
+    height: 70vh;
+
 }
     
 .inicio header{
@@ -54,20 +56,21 @@
 }
 
 .sobre-mi{
-padding: 50px 100px;
+padding: 50px 0px 0px ;
 margin-bottom: 100px;
+margin-right: 0;
 }
 
 .sobre-mi img{
     width: 720px ;
     height: 720px; 
-    padding: 0px 50px;  
+    padding: 0px 100px;  
 }
 
 .sobre-mi div{
     margin-top: 50px;
     padding-left: 80px;
-    padding-right: 400px;
+    padding-right: 20%;
 }
 
 .sobre-mi div h1{
@@ -82,7 +85,7 @@ margin-bottom: 100px;
 .cv-contactame{
     display: flex;
     margin-top: 80px;
-    padding-left: 0px;
+    padding-left: 0px; 
 }
 
 .cv-contactame a{
@@ -97,10 +100,79 @@ margin-bottom: 100px;
     height: 40px;
 }
 
+.habilidades{
+    padding: 80px 0px 80px 150px;
+}
+
+.skills-descripcion{
+    margin-top: 50px;
+    padding-left: 50px;
+    margin-right: 100px;
+    height: auto;
+}
+
+.skills-descripcion h1{
+    font-size: 50px;
+}
+
+.skills-descripcion h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.skills-descripcion p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.habilidades div a{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+
+.alinear-skills{
+    margin-right: 200px;
+}
+
+.alinear-skills div{
+    margin-right: 50px;
+}
+
+#icono-html{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+#icono-css{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.experiencia{
+
+}
+
+.ultimos-proyectos{
+    
+}
+
 .ultimos-proyectos div img{
     width: 520px;
     height: 520px;
 }
+
+.perfiles{
+    
+}
+
+.contactame{
+    
+}
+
+
 
 
 
