@@ -17,12 +17,14 @@
 }
 
 .inicio header nav{
-    margin-left:200px ;
+    margin-left:300px ;
 }
 
 .inicio header nav a{
-    margin-right: 50px;
+    margin-right: 25px;
     font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 7px;
 }
 
 .inicio section{
@@ -53,6 +55,7 @@
 
 .sobre-mi{
 padding: 50px 100px;
+margin-bottom: 100px;
 }
 
 .sobre-mi img{
@@ -77,13 +80,21 @@ padding: 50px 100px;
 }
 
 .cv-contactame{
+    display: flex;
     margin-top: 80px;
+    padding-left: 0px;
 }
 
 .cv-contactame a{
-    margin-right: 50px;
-    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
     font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    width: 140px;
+    height: 40px;
 }
 
 .ultimos-proyectos div img{

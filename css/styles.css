@@ -9,11 +9,13 @@
 }
 
 body{
-    background-color: #151515;
+    background-color: #000000;
 }
 
 .inicio{
-    background-image: url(img/dusk-2638130_1920.jpg) no-repeat center center;
+    background: url(../img/fondo3copia.jpg); 
+    background-repeat: no-repeat; 
+    position: center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -37,6 +39,12 @@ body{
 .inicio header nav a{
     color: #FBFBFB;
     text-decoration: none;
+}
+
+.inicio header nav a:hover{
+    color: #FBFBFB;
+    background-color: #E0AB2B;
+    transition: 0.5s;
 }
 
 .inicio section{
@@ -67,7 +75,7 @@ body{
 .sobre-mi img{
     justify-content: center;
     align-items: center;
-    /*ajustar tamaño*/
+    box-shadow: #000000 10px;
 }
 
 .yellow-underline{
@@ -77,18 +85,37 @@ body{
 .sobre-mi a{
     color: #E0AB2B;
     text-decoration: none;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+.sobre-mi a:hover{
+    color: #FBFBFB;
+    background-color: #E0AB2B;
 }
 
 .cv-contactame{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
+
 }
 
 .habilidades{
     display: flex;
     flex-direction: row;
     background-color: #353333;
+}
+
+.habilidades div a{
+    color: #FBFBFB;
+    text-decoration: none;
+}
+
+.habilidades div a:hover{
+    color: #FBFBFB;
+    background-color: #E0AB2B;
+    transition: 0.5s;
 }
 
 .alinear-skills{
