@@ -10,8 +10,7 @@
 
 body{
     background-color: #000000;
-    margin: 0px;
-    width: 100vw;
+    width: 100%;
 }
 
 .inicio{
@@ -21,7 +20,7 @@ body{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
 }
 
 .inicio header{
@@ -73,7 +72,7 @@ body{
 .sobre-mi{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
 }
 
 .sobre-mi img{
@@ -173,7 +172,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .ultimos-proyectos-contenedor{
@@ -182,11 +181,28 @@ body{
     align-items: center;
 }
 
+.ultimos-proyectos-contenedor i{
+    color: #FBFBFB;
+    cursor: pointer;
+}
+
+.ultimos-proyectos-contenedor-descrip{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.ultimos-proyectos-contenedor-descrip a{
+    color: #FBFBFB;
+    text-decoration: none;
+    background-color: #E0AB2B;   
+}
+
 .perfiles{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .links-perfiles{
@@ -205,7 +221,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .contactame-contenedor-titulo-form{
