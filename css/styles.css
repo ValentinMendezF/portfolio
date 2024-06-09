@@ -219,10 +219,13 @@ body{
     align-items: flex-start;
 }
 
+.links-perfiles i{
+    color:#b5b5b6;
+}
+
 .perfiles-contenedor{
     display: flex;
     flex-direction: column;
-    fle
 }
 
 .contactame{
@@ -243,6 +246,14 @@ form{
     flex-direction: column;
 }
 
+form label{
+    color: #b5b5b6;
+}
+
+form input{
+    background-color: #424242;
+}
+
 .form-numero-correo{
     display: flex;
     flex-direction: row;
@@ -257,7 +268,8 @@ form button{
     color: #E0AB2B;
     background-color: #353333;
     border: none;
-    justify-self:right;
+    position: relative;
+    cursor: pointer;
 }
 
 form button i{
@@ -266,6 +278,11 @@ form button i{
 
 .contactame-contenedor-links{
     text-align: right;
+    width: 100%;
+}
+
+.contactame-contenedor-links i{
+    color:#b5b5b6;
 }
 
 

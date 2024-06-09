@@ -256,7 +256,6 @@ margin-right: 0;
 
 .perfiles{
     padding: 100px 0px;
-    
 }
 
 .links-perfiles{
@@ -290,11 +289,66 @@ margin-right: 0;
 }
 
 .contactame{
-    
+    padding: 50px 0px 20px 0px;
+    border-radius: 20px 0px 0px 0px;
 }
 
+.contactame-contenedor-titulo{
+    margin-right: 200px;
+}
 
+.contactame-contenedor-titulo h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
 
+.contactame-contenedor-titulo h3{
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.contactame-contenedor-titulo p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+form label{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form input{
+    border-radius: 7px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.numero-correo{
+    margin-right: 30px;
+    width: 350px;
+    padding: 0;
+}
+
+form button{
+    width:fit-content;
+    font-size: 20px;
+    margin-top: 10px;
+    left: 680px; 
+}
+
+.contactame-contenedor-links{
+    margin-right: 100px;
+}
+
+.contactame-contenedor-links a{
+    margin-right: 10px;
+}
+
+.contactame-contenedor-links i{
+    font-size: 30px;
+}
 
 
 
