@@ -252,6 +252,7 @@ form label{
 
 form input{
     background-color: #424242;
+    border: none;
 }
 
 .form-numero-correo{

@@ -331,6 +331,10 @@ form input{
     padding: 0;
 }
 
+#texto-largo{
+    height: 150px;
+}
+
 form button{
     width:fit-content;
     font-size: 20px;
