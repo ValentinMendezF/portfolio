@@ -83,6 +83,7 @@ body{
 
 .yellow-underline{
     text-decoration: underline #E0AB2B;
+    text-underline-offset: 15%;
 }
 
 .sobre-mi a{
@@ -209,11 +210,19 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+
+.links-perfiles div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .perfiles-contenedor{
     display: flex;
     flex-direction: column;
+    fle
 }
 
 .contactame{
