@@ -50,6 +50,7 @@
     position: relative;
     top: 250px;
     right: 5px;
+    transition: 0.5s;
 }
 
 #flecha-abajo:hover{
@@ -224,6 +225,7 @@ margin-right: 0;
 #flecha-izquierda{
     margin-right: 100px;
     color: #424242;
+    transition: 0.5s;
 }
 
 #flecha-izquierda:hover{
@@ -268,6 +270,7 @@ margin-right: 0;
     position: absolute;
     right: 400px;
     color: #424242;
+    transition: 0.5s;
 }
 
 #flecha-derecha:hover{

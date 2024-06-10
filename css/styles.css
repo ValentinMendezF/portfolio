@@ -115,6 +115,11 @@ body{
     color: #FBFBFB;
     text-decoration: none;
     background-color: #E0AB2B;
+    transition: 0.5s;
+}
+
+.habilidades div a:hover{
+    background-color: #e0aa2bb1;
 }
 
 .alinear-skills{
@@ -194,7 +199,12 @@ body{
 .ultimos-proyectos-contenedor-descrip a{
     color: #FBFBFB;
     text-decoration: none;
-    background-color: #E0AB2B;   
+    background-color: #E0AB2B;  
+    transition: 0.5s;; 
+}
+
+.ultimos-proyectos-contenedor-descrip a:hover{
+    background-color:#e0aa2bb1;
 }
 
 .perfiles{
@@ -219,7 +229,13 @@ body{
 
 .links-perfiles i{
     color:#b5b5b6;
+    transition: 0.5s;
 }
+
+.links-perfiles i:hover{
+    color: #FBFBFB;
+}
+
 
 .perfiles-contenedor{
     display: flex;
@@ -271,8 +287,16 @@ form button{
     cursor: pointer;
 }
 
+form button:hover{
+    color:#e0aa2bb1;
+}
+
 form button i{
     color: #E0AB2B;
+}
+
+form button i:hover{
+    color: #e0aa2bb1;
 }
 
 .contactame-contenedor-links{
