@@ -46,7 +46,14 @@
 }
 
 #flecha-abajo{
-    display: none;
+    font-size: 50px;
+    position: relative;
+    top: 250px;
+    right: 5px;
+}
+
+#flecha-abajo:hover{
+    color: #FBFBFB;
 }
 
 .sobre-mi{
@@ -93,6 +100,8 @@ margin-right: 0;
     border-radius: 7px;
     width: 140px;
     height: 40px;
+    position: relative;
+    right: 80px; 
 }
 
 .habilidades{
@@ -182,6 +191,7 @@ margin-right: 0;
     height: 100%;
     position: relative;
     left: 8px;
+    top: 15px;
 }
 
 .experienciaa h2{
@@ -213,6 +223,11 @@ margin-right: 0;
 
 #flecha-izquierda{
     margin-right: 100px;
+    color: #424242;
+}
+
+#flecha-izquierda:hover{
+    color: #FBFBFB;
 }
 
 .ultimos-proyectos-contenedor i{
@@ -252,6 +267,11 @@ margin-right: 0;
 #flecha-derecha{
     position: absolute;
     right: 400px;
+    color: #424242;
+}
+
+#flecha-derecha:hover{
+    color: #FBFBFB;
 }
 
 .perfiles{
@@ -290,7 +310,7 @@ margin-right: 0;
 
 .contactame{
     padding: 50px 0px 20px 0px;
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px;
 }
 
 .contactame-contenedor-titulo{
@@ -354,7 +374,381 @@ form button{
     font-size: 30px;
 }
 
+}
 
+@media(max-width: 1440px){
+    .inicio{
+        height: 80vh;
+    }
+        
+    .inicio header{
+        padding-top: 30px;
+    }
+    
+    .inicio header p{
+        font-size: 16px;
+        position: relative;
+        left: 100px;
+    }
+    
+    .inicio header nav{
+        margin-left:300px ;
+    }
+    
+    .inicio header nav a{
+        margin-right: 5px;
+        font-size: 16px;
+        padding: 10px 25px;
+        border-radius: 7px;
+    }
+    
+    .inicio section{
+        padding: 250px;
+    }
+    
+    .inicio section h1{
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    
+    .inicio section p{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    
+    .inicio section div a{
+        border-radius: 25px ;
+        border-width: 1.5px;
+        font-size: 20px;
+        margin-right: 10px;
+        padding: 8px 12px;
+    }
+    
+    #flecha-abajo{
+        font-size: 40px;
+        position: relative;
+        top: 150px;
+        left: 0.5px;
+    }
+    
+    .sobre-mi{
+    padding: 50px 0px 0px ;
+    margin-bottom: 100px;
+    margin-right: 0;
+    }
+    
+    .sobre-mi img{
+        width: 520px ;
+        height: 520px; 
+        padding: 0px 100px;  
+        border-radius: 30%;
+    }
+    
+    .sobre-mi div{
+        margin-top: 50px;
+        padding-left: 80px;
+        padding-right: 100px;
+    }
+    
+    .sobre-mi div h1{
+        font-size: 40px;
+    }
+    
+    .sobre-mi div p{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .cv-contactame{
+        display: flex;
+        margin-top: 80px;
+        padding-left: 0px; 
+    }
+    
+    .cv-contactame a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        font-size: 16px;
+        padding: 5px 15px;
+        border-radius: 7px;
+        width: 160px;
+        height: 40px;
+        position: relative;
+        right: 80px; 
+    }
+    
+    .habilidades{
+        padding: 80px 0px 80px 150px;
+        border-radius: 30px;
+    }
+    
+    .skills-descripcion{
+        margin-top: 50px;
+        padding-left: 50px;
+        margin-right: 100px;
+        height: auto;
+    }
+    
+    .skills-descripcion h1{
+        font-size: 40px;
+    }
+    
+    .skills-descripcion h3{
+        font-size: 20px;
+        margin-bottom: 30px;
+        font-weight: 300;
+    }
+    
+    .skills-descripcion p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .habilidades div a{
+        margin-top: 30px;
+        font-size: 16px;
+        padding: 10px 25px;
+        border-radius: 7px;
+    }
+    
+    .alinear-skills{
+        margin-right: 100px;
+    }
+    
+    .alinear-skills div{
+        margin-right: 50px;
+    }
+    
+    .alinear-skills img{
+        width: 70px;
+        height: 70px;
+    }
 
+    .alinear-skills p{
+        font-size: 12px;
+    }
 
+    #icono-html{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #icono-css{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .experiencia{
+        padding: 80px 0px 0px 150px;
+        height: 100%;
+    }
+    
+    .experiencia h1{
+        margin-bottom: 100px;
+        font-size: 40px;
+    }
+    
+    .contenedor-experiencia{
+        padding: 0px 200px 200px 200px;
+    }
+    
+    #num-2024{
+        padding: 10px;
+        height: fit-content;
+        font-weight: 300;
+        margin-right: 40px;
+        font-size: 16px;
+    }
+    
+    .formas{
+        margin-right: 25px;
+    }
+    
+    .circulo{
+        border-radius: 10px;
+        padding: 7px;
+    }
+    
+    .linea-recta{
+        width: 2px;
+        height: 100%;
+        position: relative;
+        left: 8px;
+        top: 15px;
+    }
+    
+    .experienciaa h2{
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    
+    .experienciaa h3{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    
+    .experienciaa p{
+        font-size: 14px;
+    }
+    
+    .ultimos-proyectos{
+        height: 100%;
+    }
+    
+    .ultimos-proyectos h1{
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+    
+    .ultimos-proyectos-contenedor{
+        padding: 0px 0px 0px 100px;
+    }
+    
+    #flecha-izquierda{
+        margin-right: 100px;
+    }
+    
+    .ultimos-proyectos-contenedor i{
+        font-size: 50px;
+    }
+    
+    .ultimos-proyectos div img{
+        width: 600px;
+        height: 400px;
+        border-radius: 10px;
+        margin-right: 20px;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .ultimos-proyectos-contenedor-descrip{
+        height: 500px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    
+    .ultimos-proyectos-contenedor-descrip h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+    .ultimos-proyectos-contenedor-descrip p{
+        font-size: 14px;
+        padding-right: 300px;
+    }
+    
+    .ultimos-proyectos-contenedor-descrip a{
+        margin-right: 5px;
+        font-size: 16px;
+        padding: 10px 25px;
+        border-radius: 7px;
+        width: fit-content;
+    }
+    
+    #flecha-derecha{
+        position: absolute;
+        right: 200px;
+    }
+    
+    .perfiles{
+        padding: 100px 0px;
+    }
+    
+    .links-perfiles{
+        padding: 50px 0px 50px 100px;
+        margin-right: 50px;
+        height: 160px;
+        margin-left: 400px;
+    }
+    
+    .links-perfiles div{
+        margin-right: 50px;
+    }
+    
+    .links-perfiles i{
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    
+    .perfiles-contenedor{
+        height: 200px;
+        padding-right: 200px;
+    }
+    
+    .perfiles-contenedor h1{
+        font-size: 50px;
+        margin-top: 0;
+    }
+    
+    .perfiles-contenedor p{
+        font-size: 16px;
+    }
+    
+    .contactame{
+        padding: 50px 0px 20px 0px;
+        border-radius: 20px;
+    }
+    
+    .contactame-contenedor-titulo{
+        margin-right: 200px;
+    }
+    
+    .contactame-contenedor-titulo h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .contactame-contenedor-titulo h3{
+        font-weight: 400;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    
+    .contactame-contenedor-titulo p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    form label{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    form input{
+        border-radius: 7px;
+        height: 40px;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    
+    .numero-correo{
+        margin-right: 30px;
+        width: 350px;
+        padding: 0;
+    }
+    
+    #texto-largo{
+        height: 150px;
+    }
+    
+    form button{
+        width:fit-content;
+        font-size: 20px;
+        margin-top: 10px;
+        left: 680px; 
+    }
+    
+    .contactame-contenedor-links{
+        margin-right: 100px;
+    }
+    
+    .contactame-contenedor-links a{
+        margin-right: 10px;
+    }
+    
+    .contactame-contenedor-links i{
+        font-size: 30px;
+    }
 }

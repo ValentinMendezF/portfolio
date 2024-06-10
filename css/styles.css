@@ -101,8 +101,6 @@ body{
 .cv-contactame{
     display: flex;
     flex-direction: row;
-    justify-content: left;
-
 }
 
 .habilidades{
