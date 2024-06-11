@@ -803,7 +803,7 @@ form button{
     }
     
     form{
-        width: 400px;
+        width: 500px;
     }
 
     form label{
@@ -833,12 +833,12 @@ form button{
         width:fit-content;
         font-size: 16px;
         margin-top: 10px;
-        left: 680px; 
+        left: 425px; 
     }
     
     .contactame-contenedor-links{
         position: relative;
-        right: 100px;
+        right: 200px;
         margin: 0;
     }
     
