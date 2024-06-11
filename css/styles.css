@@ -54,6 +54,11 @@ body{
     color: #b5b5b6;
 }
 
+#list:hover{
+    color: #FBFBFB;
+    cursor: pointer;
+}
+
 .inicio section{
     display: flex;
     flex-direction: column;

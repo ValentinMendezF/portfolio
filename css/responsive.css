@@ -1952,3 +1952,409 @@ form button{
     }
 
 }
+
+
+@media(max-width: 431px){
+    .inicio{
+        height: 100vh;
+        width: 100vw;
+    }
+        
+    .inicio header{
+        padding-top: 30px;
+        padding-right: 15px;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .inicio header p{
+        display: none;
+    }
+    
+    .inicio header nav{
+        display: none;
+    }
+    
+    .inicio header nav a{
+        display: none;
+    }
+    
+    #list{
+        display: inline;
+        font-size: 35px;
+    }
+
+    .inicio section{
+        margin-top: 150px;
+        padding: 50px;
+    }
+    
+    .inicio section h1{
+        margin-bottom: 7px;
+        font-size: 25px;
+    }
+    
+    .inicio section p{
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+    
+    .inicio section div a{
+        border-radius: 25px ;
+        border-width: 1.5px;
+        font-size: 18px;
+        margin-right: 10px;
+        padding: 8px 12px;
+    }
+    
+    #flecha-abajo{
+        font-size: 30px;
+        position: relative;
+        top: 250px;
+        left: 0.5px;
+    }
+    
+    .sobre-mi{
+    padding: 0px;
+    margin-bottom: 100px;
+    margin-right: 0;
+    height: 100vh;
+    width: 100vw;
+    }
+    
+    .sobre-mi img{
+        display: none;
+    }
+    
+    .sobre-mi div{
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .sobre-mi div h1{
+        font-size: 28px;
+    }
+    
+    .sobre-mi div p{
+        font-size: 11px;
+        margin-bottom: 15px;
+        padding-right: 50px;
+    }
+    
+    .cv-contactame{
+        display: flex;
+        margin-top: 80px;
+        padding-left: 0px;
+        width: fit-content; 
+    }
+    
+    .cv-contactame a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        font-size: 11px;
+        padding: 5px 10px;
+        border-radius: 7px;
+        width: 80px;
+        height: 20px;
+        position: relative;
+        right: 10px; 
+    }
+    
+    .habilidades{
+        padding: 60px 0px 80px 100px;
+        border-radius: 30px;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .skills-descripcion{
+        margin-top: 50px;
+        padding-left: 0px;
+        margin-right: 70px;
+        height: auto;
+    }
+    
+    .skills-descripcion h1{
+        font-size: 27px;
+    }
+    
+    .skills-descripcion h3{
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    
+    .skills-descripcion p{
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    
+    .habilidades div a{
+        margin-top: 30px;
+        font-size: 11px;
+        padding: 7px 12px;
+        border-radius: 7px;
+    }
+    
+    .alinear-skills{
+        margin-right: 30px;
+    }
+    
+    .alinear-skills div{
+        margin-right: 30px;
+    }
+    
+    .alinear-skills img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .alinear-skills p{
+        font-size: 11px;
+    }
+
+    #icono-html{
+        font-size: 43px;
+        margin-bottom: 20px;
+    }
+    
+    #icono-css{
+        font-size: 43px;
+        margin-bottom: 20px;
+    }
+    
+    .experiencia{
+        padding: 60px 0px 0px 80px;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .experiencia h1{
+        margin-bottom: 70px;
+        font-size: 27px;
+    }
+    
+    .contenedor-experiencia{
+        padding: 0px 100px 150px 100px;
+    }
+    
+    #num-2024{
+        padding: 10px;
+        height: fit-content;
+        font-weight: 300;
+        margin-right: 30px;
+        font-size: 11px;
+    }
+    
+    .formas{
+        margin-right: 25px;
+    }
+    
+    .circulo{
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .linea-recta{
+        width: 2px;
+        height: 100%;
+        position: relative;
+        left: 6px;
+        top: 12px;
+    }
+    
+    .experienciaa h2{
+        margin-bottom: 20px;
+        font-size: 16px;
+        width: 100vw;
+    }
+    
+    .experienciaa h3{
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+    
+    .experienciaa p{
+        font-size: 11px;
+    }
+    
+    .ultimos-proyectos{
+        height: 100vh;
+        margin-bottom: 0px;
+    }
+    
+    .ultimos-proyectos h1{
+        font-size: 27px;
+        margin-bottom: 100px;
+    }
+    
+    .ultimos-proyectos-contenedor{
+        padding: 0px 0px 0px 50px;
+    }
+    
+    #flecha-izquierda{
+        margin-right: 100px;
+    }
+    
+    .ultimos-proyectos-contenedor i{
+        font-size: 40px;
+    }
+    
+    .ultimos-proyectos div img{
+        width: 400px;
+        height: 200px;
+        border-radius: 10px;
+        margin-right: 20px;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .ultimos-proyectos-contenedor-descrip{
+        height: 300px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    
+    .ultimos-proyectos-contenedor-descrip h2{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .ultimos-proyectos-contenedor-descrip p{
+        font-size: 11px;
+        padding-right: 100px;
+    }
+    
+    .ultimos-proyectos-contenedor-descrip a{
+        margin-right: 5px;
+        font-size: 11px;
+        padding: 7px 12px;
+        border-radius: 7px;
+        width: fit-content;
+    }
+    
+    #flecha-derecha{
+        position: absolute;
+        right: 50px;
+    }
+    
+    .perfiles{
+        padding: 0px 0px 50px 0px;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .links-perfiles{
+        padding: 50px 0px 50px 0px;
+        margin-right: 0px;
+        height: 160px;
+        margin-left: 150px;
+    }
+    
+    .links-perfiles div{
+        margin-right: 50px;
+    }
+    
+    .links-perfiles i{
+        font-size: 43px;
+        margin-bottom: 10px;
+    }
+    
+    .links-perfiles p{
+        font-size: 11px;
+    }
+
+    .perfiles-contenedor{
+        height: 200px;
+        padding-right: 70px;
+    }
+    
+    .perfiles-contenedor h1{
+        font-size: 27px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    
+    .perfiles-contenedor p{
+        font-size: 13px;
+    }
+
+    .contactame{
+        padding: 50px 0px 20px 0px;
+        border-radius: 20px;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .contactame-contenedor-titulo{
+        margin-right: 50px;
+    }
+    
+    .contactame-contenedor-titulo h1{
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    
+    .contactame-contenedor-titulo h3{
+        font-weight: 400;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
+    .contactame-contenedor-titulo p{
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    
+    form{
+        width: 400px;
+    }
+
+    form label{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+    form input{
+        border-radius: 7px;
+        height: 30px;
+        margin-bottom: 15px;
+        padding: 5px;
+        font-size: 11px;
+        width: 100%px;
+    }
+    
+    .numero-correo{
+        margin-right: 30px;
+        width: 200px;
+        padding: 0;
+    }
+    
+    #texto-largo{
+        height: 140px;
+    }
+    
+    form button{
+        width:fit-content;
+        font-size: 13px;
+        margin-top: 10px;
+        left: 350px; 
+    }
+    
+    .contactame-contenedor-links{
+        position: relative;
+        right: 30px;
+        margin: 0;
+    }
+    
+    .contactame-contenedor-links a{
+        margin-right: 10px;
+    }
+    
+    .contactame-contenedor-links i{
+        font-size: 16px;
+    }
+
+}
