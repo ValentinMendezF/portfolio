@@ -773,4 +773,81 @@ form button{
     .contactame-contenedor-links i{
         font-size: 20px;
     }
+
+}
+
+@media(max-width: 1280px){
+    .contactame{
+        padding: 50px 0px 20px 0px;
+        border-radius: 20px;
+    }
+    
+    .contactame-contenedor-titulo{
+        margin-right: 100px;
+    }
+    
+    .contactame-contenedor-titulo h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .contactame-contenedor-titulo h3{
+        font-weight: 400;
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+    
+    .contactame-contenedor-titulo p{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+    form{
+        width: 400px;
+    }
+
+    form label{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    
+    form input{
+        border-radius: 7px;
+        height: 30px;
+        margin-bottom: 15px;
+        padding: 5px;
+        font-size: 14px;
+    }
+    
+    .numero-correo{
+        margin-right: 30px;
+        width: 350px;
+        padding: 0;
+    }
+    
+    #texto-largo{
+        height: 140px;
+    }
+    
+    form button{
+        width:fit-content;
+        font-size: 16px;
+        margin-top: 10px;
+        left: 680px; 
+    }
+    
+    .contactame-contenedor-links{
+        position: relative;
+        right: 100px;
+        margin: 0;
+    }
+    
+    .contactame-contenedor-links a{
+        margin-right: 10px;
+    }
+    
+    .contactame-contenedor-links i{
+        font-size: 20px;
+    }
+
 }
