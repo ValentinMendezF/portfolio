@@ -297,6 +297,11 @@ margin-right: 0;
     margin-bottom: 10px;
 }
 
+#instagram{
+    position: relative;
+    left: 5px;
+}
+
 .perfiles-contenedor{
     height: 200px;
     padding-right: 30%;
@@ -336,6 +341,10 @@ margin-right: 0;
     margin-bottom: 10px;
 }
 
+form{
+    margin-bottom: 50px;
+}
+
 form label{
     font-size: 16px;
     margin-bottom: 10px;
@@ -367,6 +376,8 @@ form button{
 
 .contactame-contenedor-links{
     margin-right: 100px;
+    position: relative;
+    right: 200px;
 }
 
 .contactame-contenedor-links a{
@@ -474,10 +485,10 @@ form button{
         justify-content: center;
         margin-right: 15px;
         font-size: 16px;
-        padding: 5px 15px;
+        padding: 5px 10px;
         border-radius: 7px;
-        width: 160px;
-        height: 40px;
+        width: 140px;
+        height: 30px;
         position: relative;
         right: 80px; 
     }
@@ -663,7 +674,7 @@ form button{
         padding: 50px 0px 50px 100px;
         margin-right: 50px;
         height: 160px;
-        margin-left: 400px;
+        margin-left: 200px;
     }
     
     .links-perfiles div{
@@ -671,22 +682,27 @@ form button{
     }
     
     .links-perfiles i{
-        font-size: 70px;
+        font-size: 60px;
         margin-bottom: 10px;
     }
     
+    .links-perfiles p{
+        font-size: 14px;
+    }
+
     .perfiles-contenedor{
         height: 200px;
         padding-right: 200px;
     }
     
     .perfiles-contenedor h1{
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 0;
+        margin-bottom: 30px;
     }
     
     .perfiles-contenedor p{
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .contactame{
@@ -699,31 +715,32 @@ form button{
     }
     
     .contactame-contenedor-titulo h1{
-        font-size: 50px;
+        font-size: 40px;
         margin-bottom: 20px;
     }
     
     .contactame-contenedor-titulo h3{
         font-weight: 400;
         margin-bottom: 30px;
-        font-size: 20px;
+        font-size: 13px;
     }
     
     .contactame-contenedor-titulo p{
-        font-size: 12px;
+        font-size: 10px;
         margin-bottom: 10px;
     }
     
     form label{
-        font-size: 16px;
+        font-size: 13px;
         margin-bottom: 10px;
     }
     
     form input{
         border-radius: 7px;
-        height: 40px;
+        height: 30px;
         margin-bottom: 15px;
         padding: 5px;
+        font-size: 14px;
     }
     
     .numero-correo{
@@ -733,18 +750,20 @@ form button{
     }
     
     #texto-largo{
-        height: 150px;
+        height: 140px;
     }
     
     form button{
         width:fit-content;
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 10px;
         left: 680px; 
     }
     
     .contactame-contenedor-links{
-        margin-right: 100px;
+        position: relative;
+        right: 100px;
+        margin: 0;
     }
     
     .contactame-contenedor-links a{
@@ -752,6 +771,6 @@ form button{
     }
     
     .contactame-contenedor-links i{
-        font-size: 30px;
+        font-size: 20px;
     }
 }

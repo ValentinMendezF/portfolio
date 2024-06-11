@@ -236,6 +236,9 @@ body{
     color: #FBFBFB;
 }
 
+.links-perfiles p{
+    color:#b5b5b6;
+}
 
 .perfiles-contenedor{
     display: flex;
@@ -306,6 +309,10 @@ form button i:hover{
 
 .contactame-contenedor-links i{
     color:#b5b5b6;
+}
+
+.contactame-contenedor-links i:hover{
+    color: #FBFBFB;
 }
 
 
