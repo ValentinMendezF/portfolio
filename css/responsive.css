@@ -2062,10 +2062,10 @@ form button{
         align-items: center;
         justify-content: center;
         margin-right: 20px;
-        font-size: 12px;
-        padding: 5px 10px;
+        font-size: 16px;
+        padding: 7px 12px;
         border-radius: 7px;
-        width: 80px;
+        width: fit-content;
         height: 25px;
         position: relative;
         right: 0px; 
@@ -2113,7 +2113,7 @@ form button{
         padding: 8px 13px;
         border-radius: 7px;
         position: relative;
-        top: 400px;
+        top: 350px;
         left: 150px;
     }
     
