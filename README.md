@@ -4,6 +4,6 @@ Está basado en el diseño: https://www.behance.net/gallery/194848577/Portfolio-
 
 Se realizó únicamente utilizando html y css.
 
-Utilicé la aplicación Responsively app para adptar la página a diferentes tipos de pantalla y dispositivos.
+Utilicé la aplicación Responsively app para adptar la página a diferentes tipos de pantalla y dispositivos. (En la aplicación se ve bien, pero en mi navegador no)
 
 Las medidas de ancho de pantalla utilizadas fueron: 1920px, 1440px, 1280px, 1024px, 768px, 430px.
